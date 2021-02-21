@@ -1,6 +1,3 @@
-run-client:
-	go run cmd/grpc-client/main.go
-
 run-server:
 	go run cmd/grpc-server/main.go
 
