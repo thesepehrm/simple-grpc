@@ -26,8 +26,6 @@ message LoginResponse { string token = 1; }
 
 message LogoutRequest { string token = 1; }
 
-message ChatStreamRequest { string message = 1; }
-
 message UpdateStreamResponse {
   google.protobuf.Timestamp timestamp = 1;
   Update update = 2;
